@@ -1,17 +1,17 @@
 __author__ = 'Scott Businge'
 
 
-# OOP real world example was demonstrating OOP through Andela
+# OOP real world example was demonstrating OOP through Andela boot camp
 
 class Bootcamp(object):  # super class (main).
-    def __init__(self, country, city, logo='#TIA'):  # instantiation
-        self.logo = logo
-        self.country = country
-        self.city = city
+    def __init__(self, cohort, group, bcf):  # instantiation
+        self.cohort = cohort
+        self.group = group
+        self.bcf = bcf
 
 
-class Andelan(Andela):  # inheritance                                 # second class that inherits from super.
-    def __init__(self, country, city, first, last, role, pay, ):
+class Bootcamper(Bootcamp):  # inheritance                                 # second class that inherits from super.
+    def __init__(self, country, city, first_name, last_name, role, pay, ):
         super().__init__(country, city)
         self.first = first  # other class declarations not main.
         self.last = last
