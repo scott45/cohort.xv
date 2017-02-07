@@ -11,19 +11,18 @@ class Bootcamp(object):  # super class (main).
 
 
 class Bootcamper(Bootcamp):  # inheritance                                 # second class that inherits from super.
-    def __init__(self, country, city, first_name, last_name, role, pay, ):
-        super().__init__(country, city)
-        self.first = first  # other class declarations not main.
-        self.last = last
-        self.role = role
-        self.pay = pay
-        self.email = first + last + '@gmail.com'
+    def __init__(self, cohort, group, first_name, last_name, gender, pay, ):
+        super().__init__(cohort, group)
+        self.first_name = first_name  # other class declarations not main.
+        self.last_name = last_name
+        self.gender = gender
+        self.email = first_name + last_name + '@gmail.com'
 
     def permanent(self):  # Abstract method, defined by convention only
         raise NotImplementedError("Subclass must implement abstract method")
 
 
-employee1 = Andelan('Kenya', 'Nairobi', 'James', 'Ndiga', 'HR', 2000, )           # instances
+employee1 = ('Kenya', 'Nairobi', 'James', 'Ndiga', 'HR', 2000, )           # instances
 fellow2 = Andelan('Kenya', 'Nairobi', 'kironde', 'victor', 'fellow', 500, )
 bootcamper3 = Andelan('Kenya', 'Nairobi', 'scott', 'businge', 'b.c', 500, )
 
