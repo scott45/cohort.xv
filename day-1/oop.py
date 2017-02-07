@@ -10,7 +10,7 @@ class Bootcamp(object):  # super class (main).
         self.bcf = bcf
 
 
-class Bootcamper(Bootcamp):  # inheritance                                 # second class that inherits from super.
+class Bootcamper(Bootcamp):  # inheritance                            # second class that inherits from super.
     def __init__(self, cohort, group, first_name, last_name, gender, pay, ):
         super().__init__(cohort, group)
         self.first_name = first_name  # other class declarations not main.
@@ -22,11 +22,12 @@ class Bootcamper(Bootcamp):  # inheritance                                 # sec
         raise NotImplementedError("Subclass must implement abstract method")
 
 
-employee1 = ('Kenya', 'Nairobi', 'James', 'Ndiga', 'HR', 2000, )           # instances
-fellow2 = Andelan('Kenya', 'Nairobi', 'kironde', 'victor', 'fellow', 500, )
-bootcamper3 = Andelan('Kenya', 'Nairobi', 'scott', 'businge', 'b.c', 500, )
+entry1 = Bootcamper(15, 8, 'scott', 'bb', 'M', )           # instances
+entry2 = Bootcamper(15, 8, 'kayuyu', 'kk', 'F', )
+entry3 = Bootcamper(15, 8, 'vivian', 'vv', 'F', )
+entry4 = Bootcamper(15, 8, 'brenda', 'ba', 'F', )
 
-print(employee1.email)                                                             # print returns
-print(fellow2.email)
-print(bootcamper3.email)
-print(employee1.logo)
+print(entry1.first_name)                                                             # print returns
+print(entry2.group)
+print(entry3.cohort)
+print(entry4.gender)
