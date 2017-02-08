@@ -1,9 +1,8 @@
-"""
-	1. Split the list
-	2. Loop through the list
-	3. Check if item is already in dictionary and skip
-	4. Return final dictionary
-"""
+
+# Split the list
+# Loop through the list
+# Check if item is already in dictionary and skip
+# Return final dictionary
 
 
 def words(word_to_count):
@@ -14,9 +13,9 @@ def words(word_to_count):
 
         loop_counter = 0
 
-        # Only check for items not already added to the final result
+        # check for items not already added to the final result
         if item not in response:
-            # Compare with everything in the list
+            # Compare list elements
             item_repeated = 0
             while loop_counter < len(string_content):
 
