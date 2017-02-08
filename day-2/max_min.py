@@ -7,7 +7,7 @@
 
 def find_max_min(param):
     param.sort()
-    result = []
+    result = []  # result will be stored in a list
 
     first = param[0]
     last = param[len(param) - 1]
@@ -16,7 +16,7 @@ def find_max_min(param):
         result.append(first)
         return result
     else:
-        result.append(first)
+        result.append(first)  # append means to permanently join
         result.append(last)
         return result
 
