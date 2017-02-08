@@ -65,6 +65,7 @@
         <option value="$PROJECT_DIR$/oop.py" />
         <option value="$PROJECT_DIR$/../day-2/max_min.py" />
         <option value="$PROJECT_DIR$/../day-2/word_count.py" />
+        <option value="$PROJECT_DIR$/../day-2/http.py" />
       </list>
     </option>
   </component>
@@ -481,6 +482,16 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../day-2/http.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23089983">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
